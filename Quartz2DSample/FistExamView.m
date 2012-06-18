@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 NHN. All rights reserved.
 //
 
-#import "MyCocoaDrawingView.h"
+#import "FistExamView.h"
 
-@implementation MyCocoaDrawingView
+@implementation FistExamView
 
 #pragma mark - UIView
 - (void)drawRect:(CGRect)rect

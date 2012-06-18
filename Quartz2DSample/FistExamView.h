@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyCocoaDrawingView : UIView
+@interface FistExamView : UIView
 
 @end

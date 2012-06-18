@@ -20,7 +20,8 @@
 		786A2330158B364B00AC31F4 /* Quartz2DSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 786A232F158B364B00AC31F4 /* Quartz2DSampleTests.m */; };
 		786A2338158B364B00AC31F6 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		786A2343158B392500AC31F4 /* MyCocoaDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786A2342158B392500AC31F4 /* MyCocoaDrawingViewController.m */; };
-		7883613C158B3A0D00F29E53 /* MyCocoaDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7883613B158B3A0D00F29E53 /* MyCocoaDrawingView.m */; };
+		7883613C158B3A0D00F29E53 /* FistExamView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7883613B158B3A0D00F29E53 /* FistExamView.m */; };
+		78D281D4158EC661005B19A4 /* SecondExamView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D281D3158EC661005B19A4 /* SecondExamView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +53,10 @@
 		786A232F158B364B00AC31F4 /* Quartz2DSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2DSampleTests.m; sourceTree = "<group>"; };
 		786A2341158B392500AC31F4 /* MyCocoaDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCocoaDrawingViewController.h; sourceTree = "<group>"; };
 		786A2342158B392500AC31F4 /* MyCocoaDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCocoaDrawingViewController.m; sourceTree = "<group>"; };
-		7883613A158B3A0D00F29E53 /* MyCocoaDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCocoaDrawingView.h; sourceTree = "<group>"; };
-		7883613B158B3A0D00F29E53 /* MyCocoaDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCocoaDrawingView.m; sourceTree = "<group>"; };
+		7883613A158B3A0D00F29E53 /* FistExamView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FistExamView.h; sourceTree = "<group>"; };
+		7883613B158B3A0D00F29E53 /* FistExamView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FistExamView.m; sourceTree = "<group>"; };
+		78D281D2158EC661005B19A4 /* SecondExamView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondExamView.h; sourceTree = "<group>"; };
+		78D281D3158EC661005B19A4 /* SecondExamView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondExamView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +121,10 @@
 				786A2311158B364B00AC31F4 /* Supporting Files */,
 				786A2341158B392500AC31F4 /* MyCocoaDrawingViewController.h */,
 				786A2342158B392500AC31F4 /* MyCocoaDrawingViewController.m */,
-				7883613A158B3A0D00F29E53 /* MyCocoaDrawingView.h */,
-				7883613B158B3A0D00F29E53 /* MyCocoaDrawingView.m */,
+				7883613A158B3A0D00F29E53 /* FistExamView.h */,
+				7883613B158B3A0D00F29E53 /* FistExamView.m */,
+				78D281D2158EC661005B19A4 /* SecondExamView.h */,
+				78D281D3158EC661005B19A4 /* SecondExamView.m */,
 			);
 			path = Quartz2DSample;
 			sourceTree = "<group>";
@@ -264,7 +269,8 @@
 				786A231B158B364B00AC31F4 /* AppDelegate.m in Sources */,
 				786A2338158B364B00AC31F6 /* (null) in Sources */,
 				786A2343158B392500AC31F4 /* MyCocoaDrawingViewController.m in Sources */,
-				7883613C158B3A0D00F29E53 /* MyCocoaDrawingView.m in Sources */,
+				7883613C158B3A0D00F29E53 /* FistExamView.m in Sources */,
+				78D281D4158EC661005B19A4 /* SecondExamView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
