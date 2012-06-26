@@ -21,6 +21,7 @@
 		786A2338158B364B00AC31F6 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		786A2343158B392500AC31F4 /* MyCocoaDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786A2342158B392500AC31F4 /* MyCocoaDrawingViewController.m */; };
 		7883613C158B3A0D00F29E53 /* FistExamView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7883613B158B3A0D00F29E53 /* FistExamView.m */; };
+		7899C3D315999EEC00BB746B /* iOS4WebViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7899C3D215999EEC00BB746B /* iOS4WebViewTestViewController.m */; };
 		78D281D4158EC661005B19A4 /* SecondExamView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D281D3158EC661005B19A4 /* SecondExamView.m */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,8 @@
 		786A2342158B392500AC31F4 /* MyCocoaDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCocoaDrawingViewController.m; sourceTree = "<group>"; };
 		7883613A158B3A0D00F29E53 /* FistExamView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FistExamView.h; sourceTree = "<group>"; };
 		7883613B158B3A0D00F29E53 /* FistExamView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FistExamView.m; sourceTree = "<group>"; };
+		7899C3D115999EEC00BB746B /* iOS4WebViewTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS4WebViewTestViewController.h; sourceTree = "<group>"; };
+		7899C3D215999EEC00BB746B /* iOS4WebViewTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOS4WebViewTestViewController.m; sourceTree = "<group>"; };
 		78D281D2158EC661005B19A4 /* SecondExamView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondExamView.h; sourceTree = "<group>"; };
 		78D281D3158EC661005B19A4 /* SecondExamView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondExamView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +128,8 @@
 				7883613B158B3A0D00F29E53 /* FistExamView.m */,
 				78D281D2158EC661005B19A4 /* SecondExamView.h */,
 				78D281D3158EC661005B19A4 /* SecondExamView.m */,
+				7899C3D115999EEC00BB746B /* iOS4WebViewTestViewController.h */,
+				7899C3D215999EEC00BB746B /* iOS4WebViewTestViewController.m */,
 			);
 			path = Quartz2DSample;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 				786A2343158B392500AC31F4 /* MyCocoaDrawingViewController.m in Sources */,
 				7883613C158B3A0D00F29E53 /* FistExamView.m in Sources */,
 				78D281D4158EC661005B19A4 /* SecondExamView.m in Sources */,
+				7899C3D315999EEC00BB746B /* iOS4WebViewTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +369,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quartz2DSample/Quartz2DSample-Prefix.pch";
 				INFOPLIST_FILE = "Quartz2DSample/Quartz2DSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,6 +381,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quartz2DSample/Quartz2DSample-Prefix.pch";
 				INFOPLIST_FILE = "Quartz2DSample/Quartz2DSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

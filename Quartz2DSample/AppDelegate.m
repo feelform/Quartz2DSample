@@ -3,11 +3,12 @@
 //  Quartz2DSample
 //
 //  Created by Yongseok Kang on 6/15/12.
-//  Copyright (c) 2012 NHN. All rights reserved.
+//  Copyright (c) 2012 feelform. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import "MyCocoaDrawingViewController.h"
+#import "iOS4WebViewTestViewController.h"
 
 @implementation AppDelegate
 
@@ -16,7 +17,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = [[MyCocoaDrawingViewController alloc] init];
+//    self.window.rootViewController = [[MyCocoaDrawingViewController alloc] init];
+    self.window.rootViewController = [[iOS4WebViewTestViewController alloc] init];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

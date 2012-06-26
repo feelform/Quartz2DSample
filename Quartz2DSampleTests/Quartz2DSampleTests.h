@@ -3,7 +3,7 @@
 //  Quartz2DSampleTests
 //
 //  Created by Yongseok Kang on 6/15/12.
-//  Copyright (c) 2012 NHN. All rights reserved.
+//  Copyright (c) 2012 feelform. All rights reserved.
 //
 
 #import <SenTestingKit/SenTestingKit.h>

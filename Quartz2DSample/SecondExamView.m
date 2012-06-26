@@ -3,7 +3,7 @@
 //  Quartz2DSample
 //
 //  Created by Yongseok Kang on 6/18/12.
-//  Copyright (c) 2012 NHN. All rights reserved.
+//  Copyright (c) 2012 feelform. All rights reserved.
 //
 
 #import "SecondExamView.h"
@@ -23,15 +23,15 @@
 {
     CGContextRef context = UIGraphicsGetCurrentContext();
 
-    CGGradientRef myGradient;
-    CGColorSpaceRef myColorspace;
+    CGGradientRef shadowGradient;
+    CGColorSpaceRef shadowColorSpace;
     size_t num_locations = 2;
     CGFloat locations[] = { 0.0, 1.0 };
     CGFloat components[] = { 0.0, 0.0, 0.0, 1.0,
                               0.0, 0.0, 0.0, 0.0 };
 
-    myColorspace = CGColorSpaceCreateDeviceRGB();
-    myGradient = CGGradientCreateWithColorComponents (myColorspace, components,
+    shadowColorSpace = CGColorSpaceCreateDeviceRGB();
+    shadowGradient = CGGradientCreateWithColorComponents (shadowColorSpace, components,
                               locations, num_locations);
 
     CGPoint myStartPoint, myEndPoint;
@@ -39,10 +39,10 @@
     myStartPoint.y = 0.0;
     myEndPoint.x = 1.0;
     myEndPoint.y = 20;
-    CGContextDrawLinearGradient (context, myGradient, myStartPoint, myEndPoint, 0);
+    CGContextDrawLinearGradient (context, shadowGradient, myStartPoint, myEndPoint, 0);
 
-    CGColorSpaceRelease (myColorspace);
-    CGGradientRelease(myGradient);
+    CGColorSpaceRelease (shadowColorSpace);
+    CGGradientRelease(shadowGradient);
 }
 
 @end

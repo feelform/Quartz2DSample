@@ -3,7 +3,7 @@
 //  Quartz2DSample
 //
 //  Created by Yongseok Kang on 6/15/12.
-//  Copyright (c) 2012 NHN. All rights reserved.
+//  Copyright (c) 2012 feelform. All rights reserved.
 //
 
 #import "MyCocoaDrawingViewController.h"
@@ -59,6 +59,11 @@
     [super viewDidLoad];
 
 }
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+}
+
 
 - (void)viewDidUnload
 {
