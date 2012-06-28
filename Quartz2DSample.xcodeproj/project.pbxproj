@@ -23,6 +23,7 @@
 		7883613C158B3A0D00F29E53 /* FistExamView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7883613B158B3A0D00F29E53 /* FistExamView.m */; };
 		7899C3D315999EEC00BB746B /* iOS4WebViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7899C3D215999EEC00BB746B /* iOS4WebViewTestViewController.m */; };
 		78D281D4158EC661005B19A4 /* SecondExamView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D281D3158EC661005B19A4 /* SecondExamView.m */; };
+		78D281D4158EC661005B19A6 /* ColoredPatternExamView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D281D4158EC661005B19A5 /* ColoredPatternExamView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		7899C3D215999EEC00BB746B /* iOS4WebViewTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOS4WebViewTestViewController.m; sourceTree = "<group>"; };
 		78D281D2158EC661005B19A4 /* SecondExamView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondExamView.h; sourceTree = "<group>"; };
 		78D281D3158EC661005B19A4 /* SecondExamView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondExamView.m; sourceTree = "<group>"; };
+		78D281D4158EC661005B19A5 /* ColoredPatternExamView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredPatternExamView.m; sourceTree = "<group>"; };
+		78D281D4158EC661005B19A7 /* ColoredPatternExamView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredPatternExamView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 		786A2310158B364A00AC31F4 /* Quartz2DSample */ = {
 			isa = PBXGroup;
 			children = (
+				78D281D4158EC661005B19A7 /* ColoredPatternExamView.h */,
+				78D281D4158EC661005B19A5 /* ColoredPatternExamView.m */,
 				786A2319158B364B00AC31F4 /* AppDelegate.h */,
 				786A231A158B364B00AC31F4 /* AppDelegate.m */,
 				786A2311158B364B00AC31F4 /* Supporting Files */,
@@ -277,6 +282,7 @@
 				7883613C158B3A0D00F29E53 /* FistExamView.m in Sources */,
 				78D281D4158EC661005B19A4 /* SecondExamView.m in Sources */,
 				7899C3D315999EEC00BB746B /* iOS4WebViewTestViewController.m in Sources */,
+				78D281D4158EC661005B19A6 /* ColoredPatternExamView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
