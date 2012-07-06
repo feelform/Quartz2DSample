@@ -27,12 +27,13 @@ static const NSInteger HEIGHT = 44;
 
 - (void)createWebView {
     self.webView.hidden = YES;
+    [self.webView removeFromSuperview];
     self.webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame) - HEIGHT)];
     [self.view addSubview:webView];
 }
 
 - (void)loadNaverInWebView {
-    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://m.naver.com"]]];
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://feelform.net"]]];
 }
 
 - (void)loadView {

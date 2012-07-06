@@ -10,12 +10,16 @@
 
 @class FistExamView;
 @class SecondExamView;
+@class ColoredPatternExamView;
 
 @interface MyCocoaDrawingViewController : UIViewController {
     FistExamView *fistExamView;
     SecondExamView *secondExamView;
+    ColoredPatternExamView *coloredPatternView;
 }
 @property(nonatomic, strong) FistExamView *fistExamView;
 @property(nonatomic, strong) SecondExamView *secondExamView;
+@property(nonatomic, strong) ColoredPatternExamView *coloredPatternView;
+
 
 @end

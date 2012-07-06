@@ -9,6 +9,7 @@
 #import "MyCocoaDrawingViewController.h"
 #import "FistExamView.h"
 #import "SecondExamView.h"
+#import "ColoredPatternExamView.h"
 
 @interface MyCocoaDrawingViewController ()
 
@@ -17,16 +18,25 @@
 @implementation MyCocoaDrawingViewController
 @synthesize fistExamView;
 @synthesize secondExamView;
+@synthesize coloredPatternView;
 
 
 - (void)tapFirst {
     fistExamView.hidden = NO;
     secondExamView.hidden = YES;
+    coloredPatternView.hidden = YES;
 }
 
 - (void)tapSecond {
     fistExamView.hidden = YES;
     secondExamView.hidden = NO;
+    coloredPatternView.hidden = YES;
+}
+
+- (void)tapThird {
+    fistExamView.hidden = YES;
+    secondExamView.hidden = YES;
+    coloredPatternView.hidden = NO;
 }
 
 - (void)loadView {
@@ -41,6 +51,10 @@
     secondExamView.hidden = YES;
     [self.view addSubview:secondExamView];
 
+    self.coloredPatternView = [[ColoredPatternExamView alloc] initWithFrame:self.view.bounds];
+    coloredPatternView.hidden = YES;
+    [self.view addSubview:coloredPatternView];
+
     UIButton *firstExam = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     firstExam.frame = CGRectMake(10, CGRectGetHeight(self.view.frame) - 40, 40, 30);
     [firstExam setTitle:@"첫번째" forState:UIControlStateNormal];
@@ -52,6 +66,13 @@
     [secondExam setTitle:@"두번째" forState:UIControlStateNormal];
     [secondExam addTarget:self action:@selector(tapSecond) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:secondExam];
+
+    UIButton *thirdExam = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    thirdExam.frame = CGRectMake(CGRectGetMaxX(secondExam.frame) + 10, CGRectGetMaxY(secondExam.frame) - 30, 40, 30);
+    [thirdExam addTarget:self action:@selector(tapThird) forControlEvents:UIControlEventTouchUpInside];
+    [thirdExam setTitle:@"세번째" forState:UIControlStateNormal];
+
+    [self.view addSubview:thirdExam];
 }
 
 - (void)viewDidLoad

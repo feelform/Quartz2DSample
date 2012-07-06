@@ -12,8 +12,19 @@ void MyDrawColoredPattern (void *info, CGContextRef myContext);
 #define H_PATTERN_SIZE 16
 #define V_PATTERN_SIZE 18
 
+@interface ColoredPatternExamView ()
+- (void)paintingColoredPattern:(CGContextRef)myContext rectangle:(CGRect)rect;
+
+@end
+
 @implementation ColoredPatternExamView
-- (void)paintingCloredPattern:(CGContextRef)myContext rectangle:(CGRect)rect
+
+- (void)drawRect:(CGRect)rect {
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    [self paintingColoredPattern:context rectangle:self.bounds];
+}
+
+- (void)paintingColoredPattern:(CGContextRef)myContext rectangle:(CGRect)rect
 {
     CGPatternRef pattern;
     CGColorSpaceRef patternSpace;
@@ -36,6 +47,17 @@ void MyDrawColoredPattern (void *info, CGContextRef myContext);
     CGContextFillRect(myContext, rect);
     CGContextRestoreGState(myContext);
 }
+
+
+- (id)init {
+    self = [super init];
+    if (self) {
+        self.backgroundColor = [UIColor whiteColor];
+    }
+
+    return self;
+}
+
 
 @end
 

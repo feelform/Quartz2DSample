@@ -18,7 +18,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 //    self.window.rootViewController = [[MyCocoaDrawingViewController alloc] init];
-    self.window.rootViewController = [[MyCocoaDrawingViewController alloc] init];
+    self.window.rootViewController = [[iOS4WebViewTestViewController alloc] init];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
